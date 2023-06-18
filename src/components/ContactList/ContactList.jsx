@@ -3,9 +3,8 @@ import css from './ContactList.module.css';
 import PropTypes from 'prop-types';
 
 export class ContactList extends Component {
-  handleDelete = id => {
+  deleteContact = id => {
     const { value } = id.target;
-
     this.props.onClick(value);
   };
 
@@ -22,7 +21,7 @@ export class ContactList extends Component {
               <button
                 type="submit"
                 value={contact.id}
-                onClick={this.handleDelete}
+                onClick={this.deleteContact}
                 className={css.contacts__button}
               >
                 Delete

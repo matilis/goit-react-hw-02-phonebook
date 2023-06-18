@@ -41,7 +41,7 @@
 
 .contacts__button:hover {
   transform: scale(1.2);
-  background-color: blue;
+  background-color: red;
   color: white;
   cursor: pointer;
 }

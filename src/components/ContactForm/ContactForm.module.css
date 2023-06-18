@@ -28,7 +28,7 @@
 
 .form__button:hover {
   transform: scale(1.2);
-  background-color: blue;
+  background-color: rgb(25, 186, 25);
   color: white;
   cursor: pointer;
 }
